@@ -3,49 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      background: #f4f4f4;
-      padding: 40px;
-    }
-    .card {
-      background: white;
-      padding: 30px;
-      border-radius: 12px;
-      max-width: 500px;
-      margin: auto;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    img {
-      width: 150px;
-      border-radius: 50%;
-    }
-    h1 {
-      margin: 20px 0 10px;
-    }
-    p {
-      color: #555;
-    }
-    .links a {
-      margin: 10px;
-      display: inline-block;
-      text-decoration: none;
-      color: #0077cc;
-    }
-  </style>
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="card">
-    <img src="https://via.placeholder.com/150" alt="Profile Photo" />
-    <h1>Your Name</h1>
-    <p>Web Developer | Designer | Creator</p>
-    <div class="links">
-      <a href="https://linkedin.com">LinkedIn</a>
-      <a href="https://github.com">GitHub</a>
-      <a href="mailto:you@example.com">Email Me</a>
+  <div class="container">
+    <div class="profile">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
+      <h1>Your Name</h1>
+      <p>Web Developer | Data Analyst | Digital Marketer</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="mailto:yourname@example.com" target="_blank">Email Me</a>
+      </div>
+    </div>
+
+    <div class="projects">
+      <h2>My Work</h2>
+
+      <div class="category">
+        <h3>🌐 Website Building</h3>
+        <ul>
+          <li><strong>Portfolio Site</strong> – A personal website using HTML/CSS</li>
+          <li><strong>Company Landing Page</strong> – Built for a client using Bootstrap</li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h3>📊 Data Analysis Projects</h3>
+        <ul>
+          <li><strong>Sales Dashboard</strong> – Built in Excel & Power BI for retail insights</li>
+          <li><strong>Python Data Cleaning</strong> – Jupyter notebook for real-world dataset</li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h3>📣 Digital Marketing</h3>
+        <ul>
+          <li><strong>Instagram Growth Strategy</strong> – Gained 10k+ followers in 2 months</li>
+          <li><strong>SEO Blog Optimization</strong> – Ranked #1 on Google for niche keywords</li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
